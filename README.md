@@ -1,2 +1,3 @@
-# data-structures-and-algorithms-udacity-notes
-My notes about the lessons of the program
+# Data structures and algorithms notes
+
+My notes and snippets from the program.

@@ -8,3 +8,7 @@ My notes and snippets from Udacity's nanodegree program:
 - Control structures
 - Function and generators
 - Classes
+
+2. How to solve problems
+
+To be continued (...)

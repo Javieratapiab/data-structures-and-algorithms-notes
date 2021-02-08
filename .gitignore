@@ -1,3 +1,5 @@
 # Remove pycharm files
 .idea/
 
+# Remove venv
+venv

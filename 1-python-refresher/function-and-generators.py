@@ -5,7 +5,6 @@
 def sum_redo(a, b):
     return a + b
 
-
 #
 #
 # # Example function 2: return the size of list, and modify the list to now be sorted.
@@ -32,7 +31,6 @@ def all_even():
     while True:
         yield n
         n += 2
-
 
 my_gen = all_even()
 

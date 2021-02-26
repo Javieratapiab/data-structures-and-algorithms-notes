@@ -122,10 +122,9 @@ and check our results.
 
 **What should we do next?**
 
-[_] refine `nextDay` to work correctly for real months.\
-[X] define `daysBetweenDates` to give approximate answers
-using our `nextDay` procedure.\
-[_] go to beach and celebrate.
+[] refine `nextDay` to work correctly for real months.\
+[X] define `daysBetweenDates` to give approximate answers using our `nextDay` procedure.\
+[] go to beach and celebrate.
 
 > Hint: start by defining a helper procedure
 

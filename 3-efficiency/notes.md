@@ -262,10 +262,10 @@ n, and the number of times the function will print `"Hello!"`?
 > 2*2 or four times).
 
 Notice that when the input goes up by a certain amount, the number of operations goes up by the square of that amount.
-If the input is 2, the number of operations is $$2^2$$ or 4. If the input is 3, the number of operations is
-$$3^2$$ or 9.
+If the input is 2, the number of operations is 2^2 or 4. If the input is 3, the number of operations is
+3^2 or 9.
 
-To state this in general terms, if we have an input, nnn, then the number of operations will be $$n^2$$.
+To state this in general terms, if we have an input, nnn, then the number of operations will be n^2.
 This is what we would call a **quadratic** rate of increase.
 
 Let's compare that with the **linear** rate of increase. In that case, when the input is nnn,
@@ -275,7 +275,7 @@ Let's graph both of these rates, so we can see them together:
 
 ![alt Linear vs Quadratic](resources/linear-vs-quadratic.png "Linear vs Quadratic")
 
-Our code with the nested `for` loop exhibits the quadratic $$n^2$$ relationship on the left. Notice that this results
+Our code with the nested `for` loop exhibits the quadratic n^2 relationship on the left. Notice that this results
 in a much faster rate of increase. As we ask our code to print larger and larger numbers of `"Hellos!"`, the number of
 operations the computer has to perform shoots up very quickly—much more quickly than our other function,
 which shows a linear increase.
@@ -382,7 +382,7 @@ def say_hello(n):
 
 Again, which of these would best approximate the efficiency using big O notation?
 
-> $$n^2$$
+> n^2
 
 
 ### Big O Notation (2/2)
@@ -399,16 +399,16 @@ an approximation, but as we go through the course you'll see that there's a lot 
 Suppose that we analyze an algorithm and decide that it has the following relationship between the input size, `n`,
 and the number of operations needed to carry out the algorithm:
 
-`N = $$n^2$$ + 5`
+`N = n^2 + 5`
 
 Where `n` is the input size and `N` is the number of operations required.
 
-For example, if we gave this algorithm an input of `2`, the number of required operations would be `$$2^2$$ + 5`
+For example, if we gave this algorithm an input of `2`, the number of required operations would be `2^2 + 5`
 or simply `9`.
 
 **Quiz Question**
 
-Below are some other possible values for the input (`n`). For each input, what does `$$n^2$$ + 5` evaluate to?
+Below are some other possible values for the input (`n`). For each input, what does `n^2 + 5` evaluate to?
 
 | Input | Number of operations |
 | ----- |:--------------------:|
@@ -417,9 +417,9 @@ Below are some other possible values for the input (`n`). For each input, what d
 | 25    | 9 |
 | 10    | 16 |
 
-The thing to notice in the above exercise, is this: In `$$n^2$$ + 5`, the `5` has very little impact on the total
+The thing to notice in the above exercise, is this: In `n^2 + 5`, the `5` has very little impact on the total
 efficiency—especially as the input size gets larger and larger. Asking the computer to do 10,005 operations
-vs. 10,000 operations makes little difference. Thus, it is the `$$n^2$$` that we really care about the most,
+vs. 10,000 operations makes little difference. Thus, it is the `n^2` that we really care about the most,
 and the `+5` makes little difference.
 
 Most of the time, when analyzing the efficiency of an algorithm, the most important thing to know is the _order_.

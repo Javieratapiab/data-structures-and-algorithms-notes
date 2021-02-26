@@ -249,7 +249,7 @@ def test():
 test()
 ```
 
-### Real world problem
+### 7. Real world problem
 
 We are not getting the right answer, not all the months have 30 days. Let's see what should be the most
 appropriate strategy to handle the rest of the problem:
@@ -272,4 +272,13 @@ so you're able to do meaningful tests as you go and see the code incrementally g
 that you need for that.
 
 **In conclusion: test as you go.**
+
+### 8. Pythonista's Guide to All Problems in the Galaxy
+
+0. Don't panic!
+1. What are the inputs?
+2. What are the outputs?
+3. Work through some examples by hand
+4. Simple mechanical solution
+5. **Develop incrementally and test as we go.**
 

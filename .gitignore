@@ -1,5 +1,5 @@
-# Remove pycharm files
+# Remove pycharm resources
 .idea/
 
-# Remove venv
-venv
+# DS_Store
+.DS_Store

@@ -394,7 +394,7 @@ demand very different numbers of operations from the computer's processor. For n
 an approximation, but as we go through the course you'll see that there's a lot more going on under the surface.
 
 
-### Worst Case and Approximation
+### The Worst Case and Approximation
 
 Suppose that we analyze an algorithm and decide that it has the following relationship between the input size, `n`,
 and the number of operations needed to carry out the algorithm:
@@ -430,4 +430,27 @@ Brynn will discuss this concept and show how it's used with Big O Notation.
 
 **Approximation**
 
-- We normally use approximations when talking about efficiency in Big O notation.
+Since the amount of the steps can vary widely based on the specific implementations, we normally use approximations
+when talking about efficiency in Big O notation.
+
+Basically,
+
+```
+ O(2n + 2), O(3n + 2), O(29n + 2)
+```
+
+We can say that all the examples above can be described just as `O(n)` **(in an interview)**.
+
+By approximation, we're really saying:
+
+> Some numbers of computations must be performed for EACH letter in the input.
+
+**Worst case**
+
+When we talk about efficiency we often talk about it in terms of the **worst-case scenario**. In the alphabet example
+we would have to check all 26 letters at time (worst case). We focus on the worst case because it puts an upper bound
+on the amount of time our code is going to take.
+
+- We can talk about efficiency in terms of the **average case** or even the **best case**.
+
+### Efficiency Practice

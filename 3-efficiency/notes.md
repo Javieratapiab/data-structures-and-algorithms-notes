@@ -1,7 +1,8 @@
 # Efficiency
 
 We said earlier that this Nanodegree program is about how to write code to solve problems and to do so **efficiently.**
-In the last section, we looked at some basic aspects of solving problems—, but we didn't really think too much about whether our solutions were efficient.
+In the last section, we looked at some basic aspects of solving problems—, but we didn't really think too much about
+whether our solutions were efficient.
 
 ## Space and time
 

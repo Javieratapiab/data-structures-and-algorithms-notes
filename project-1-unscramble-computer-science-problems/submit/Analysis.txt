@@ -1,0 +1,15 @@
+# Tasks analysis
+
+- Task0
+
+Big O notation: O(1)
+
+Explanation: since we are getting items from two lists, both operations cost us O(1) (constant time).
+
+- Task1
+
+Big O notation:
+
+- Task2
+- Task3
+- Task4

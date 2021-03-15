@@ -507,14 +507,15 @@ What is the simplification of this run time analysis: `4n^2 + 3n + 7` ?
 
 ### Space Complexity
 
-
-
-
 **Space Complexity Examples**
 
-When we refer to space complexity, we are talking about how efficient our algorithm is in terms of memory usage. This comes down to the datatype of the variables we are using, and their allocated space requirements. In Python, it's less clear how to do this due to the underlying data structures using more memory for housekeeping functions (as the language is actually written in C).
+When we refer to space complexity, we are talking about how efficient our algorithm is in terms of memory usage.
+This comes down to the datatype of the variables we are using, and their allocated space requirements.
+In Python, it's less clear how to do this due to the underlying data structures using more memory for
+housekeeping functions (as the language is actually written in C).
 
-For example, in C/C++, an integer type takes up 4 bytes of memory to store the value, but in Python 3 an integer takes 14 bytes of space. Again, this extra space is used for housekeeping functions in the Python language.
+For example, in C/C++, an integer type takes up 4 bytes of memory to store the value, but in Python 3 an integer
+takes 14 bytes of space. Again, this extra space is used for housekeeping functions in the Python language.
 
 For the examples of this lesson we will avoid this complexity and assume the following sizes:
 
